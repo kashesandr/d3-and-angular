@@ -1,0 +1,33 @@
+{
+  "name": "d3-and-angular",
+  "version": "1.0.0",
+  "description": "How to use d3.js with google angular v1?",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8181 -c-1 ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kashesandr/d3-and-angular.git"
+  },
+  "keywords": [
+    "d3",
+    "d3.js",
+    "google",
+    "angular",
+    "charts",
+    "svg"
+  ],
+  "author": "Alexander Kasheverov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashesandr/d3-and-angular/issues"
+  },
+  "homepage": "https://github.com/kashesandr/d3-and-angular",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  }
+}
