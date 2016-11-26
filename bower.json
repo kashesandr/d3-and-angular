@@ -9,6 +9,6 @@
     "angular": "~1.5.0",
     "html5-boilerplate": "^5.3.0",
     "d3": "^4.3.0",
-    "kash-matrix":"git://github.com/kashesandr/kash-matrix.git#v1.0.0"
+    "kash-matrix":"git://github.com/kashesandr/kash-matrix.git#v1.0.1"
   }
 }
