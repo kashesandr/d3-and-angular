@@ -26,7 +26,7 @@ app.directive('d3Matrix', function(){
             options: "=options"
         },
         link: function (scope, element, attrs) {
-            var chart = window.Matrix();
+            var chart = window.KashMatrix();
 
             for (var key in scope.options) {
                 if (scope.options.hasOwnProperty(key)) {
