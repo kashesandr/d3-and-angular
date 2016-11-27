@@ -4,9 +4,8 @@
   "description": "How to use d3.js with google angular v1?",
   "main": "index.js",
   "scripts": {
-    "postinstall": "bower install",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8181 -c-1 ./app"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,12 @@
     "url": "https://github.com/kashesandr/d3-and-angular/issues"
   },
   "homepage": "https://github.com/kashesandr/d3-and-angular",
+  "dependencies": {
+    "angular": "~1.5.0",
+    "d3": "^4.3.0",
+    "kash-matrix": "git://github.com/kashesandr/kash-matrix.git#v2.0.0"
+  },
   "devDependencies": {
-    "bower": "^1.7.7",
-    "http-server": "^0.9.0"
+    "lite-server": "^2.2.2"
   }
 }
