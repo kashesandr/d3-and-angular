@@ -18,7 +18,7 @@ app.directive('d3Matrix', function(){
 
             var chart = window.KashMatrix();
             var svg = window.d3.select(element[0]).append("svg");
-            var render = function () { svg.call(chart) };
+            var render = function() { svg.call(chart) };
 
             scope.$watch('data', function(newVal, oldVal){
                 svg.datum(newVal); render();
@@ -30,9 +30,6 @@ app.directive('d3Matrix', function(){
                         chart[key](newVal[key]);
                 render();
             }, true);
-
-            render();
-
         }
     }
 });
